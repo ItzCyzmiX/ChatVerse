@@ -1,38 +1,32 @@
-# sv
+# ChatVerse
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+ChatVerse is an interactive AI companion platform where users can engage in conversations with historical figures, fictional characters, or create their own custom AI companions.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Custom Bot Creation**: Design and create unique AI companions with customizable personalities, behaviors, and backstories
+- **Lightning-Fast Responses**: Near-instant responses powered by cutting-edge AI technology
+- **Memory & Context**: AI companions remember conversations and maintain context for more meaningful interactions
+- **Community Sharing**: Share your AI companions with others or discover bots created by the community
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Getting Started
 
-# create a new project in my-app
-npx sv create my-app
-```
+1. Create a free account at [ChatVerse](https://chatverse.vercel.app)
+2. Design your custom AI companion by setting their personality traits and backstory
+3. Start chatting and watch your AI companion learn from your interactions
+4. Share your creation with the community or try out other users' bots
 
-## Developing
+## Tech Stack
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Frontend: SvelteKit
+- Styling: TailwindCSS
+- Deployment: Vercel
+- Database: Supabase
+- Authentication: Supabase Auth
 
-```bash
-npm run dev
+## Development
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+1. Clone the repository
+2. run *pnpm i*
+3. run *pnpm run dev*
+4. load the preveiw at *localhost:5173
