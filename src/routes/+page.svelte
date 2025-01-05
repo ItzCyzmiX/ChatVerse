@@ -1,14 +1,8 @@
 <script>
-    let mouseX = 0;
-    let mouseY = 0;
 
-    function handleMouseMove(event) {
-        mouseX = event.clientX;
-        mouseY = event.clientY;
-    }
 </script>
 
-<svelte:window on:mousemove={handleMouseMove} />
+
 <div class="min-h-screen text-white p-8">
     <div class="fixed inset-0 -z-[11] h-full w-full bg-black">
         <div
@@ -21,7 +15,7 @@
 
     <div class="max-w-7xl mx-auto px-8 py-20">
         <div class="text-center mb-16">
-            <h1 class="text-6xl font-bold mb-6">Chat with Anyone</h1>
+            <h1 class="text-6xl font-bold mb-6 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent transition-transform">ChatVerse</h1>
             <p class="text-xl text-zinc-400 mb-8">
                 Engage in conversations with historical figures, fictional
                 characters, or create your own AI companions.
@@ -180,7 +174,7 @@
         <div class="bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-xl p-12 text-center mt-16">
             <h2 class="text-4xl font-bold mb-4">Ready to get started?</h2>
             <p class="text-xl text-zinc-300 mb-8">Create your first AI companion today and experience the future of digital interaction.</p>
-            <a href="/register" class="bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-zinc-200 transition-colors inline-block">
+            <a href="/login" class="bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-zinc-200 transition-colors inline-block">
                 Create Your Account
             </a>
         </div>
