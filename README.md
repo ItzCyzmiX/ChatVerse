@@ -1,3 +1,5 @@
+# CHATVERSE IS NO LONGER MAINTAINED FOR WEB PLEASE USE THE [MOBILE APP](https://github.com/ItzCyzmiX/Chat-Verse-App)!
+
 # ChatVerse
 
 ChatVerse is an interactive AI companion platform where users can engage in conversations with historical figures, fictional characters, or create their own custom AI companions.
