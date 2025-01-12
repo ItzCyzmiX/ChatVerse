@@ -1,4 +1,4 @@
-# CHATVERSE IS NO LONGER MAINTAINED FOR WEB PLEASE USE THE [MOBILE APP](https://github.com/ItzCyzmiX/Chat-Verse-App)!
+# THIS REPO IS NO LONGER MAINTENED, CHECK THIS [ONE](https://github.com/ItzCyzmiX/Chat-Verse-App)!
 
 # ChatVerse
 
